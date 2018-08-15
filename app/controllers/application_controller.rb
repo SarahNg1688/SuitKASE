@@ -12,6 +12,6 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/' do
-    return erb :Africa
+    return erb :Australia
   end
 end
