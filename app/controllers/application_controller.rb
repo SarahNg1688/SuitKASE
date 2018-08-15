@@ -10,4 +10,8 @@ class ApplicationController < Sinatra::Base
   get '/' do
     return erb :index
   end
+  
+  post '/' do
+    return erb :Africa
+  end
 end
