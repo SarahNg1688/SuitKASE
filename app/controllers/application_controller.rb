@@ -18,7 +18,11 @@ class ApplicationController < Sinatra::Base
 post '/button' do
   erb:button 
 
-
 end
-end 
+  post '/suitKASE' do
+    "Congrats! You are now signed up for newsletters from us!"
+  end
+end
+
+
 
