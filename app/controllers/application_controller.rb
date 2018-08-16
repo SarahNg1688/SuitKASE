@@ -37,6 +37,14 @@ post '/South_America' do
 
 
 
+post '/index' do
+    return erb :index 
+  end
+
+post '/form' do
+    return erb :form  
+  end
+
 
 
 post '/button' do
