@@ -11,7 +11,14 @@ class ApplicationController < Sinatra::Base
     return erb :index
   end
   
-  post '/' do
+  post '/Australia' do
     return erb :Australia
   end
+
+post '/suitKASE_form' do
+  erb:button 
+
+
 end
+end 
+
