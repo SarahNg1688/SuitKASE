@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
     return erb :Australia
   end
 
-post '/suitKASE_form' do
+post '/button' do
   erb:button 
 
 
