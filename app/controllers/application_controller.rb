@@ -15,6 +15,30 @@ class ApplicationController < Sinatra::Base
     return erb :Australia
   end
 
+post '/Africa' do
+    return erb :Africa
+  end
+
+post '/Asia' do
+    return erb :Asia 
+  end
+
+post '/Europe' do
+    return erb :Europe 
+  end
+
+post '/North_America' do
+    return erb :North_America
+  end
+
+post '/South_America' do
+    return erb :South_America
+  end
+
+
+
+
+
 post '/button' do
   erb:button 
 
